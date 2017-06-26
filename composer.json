@@ -1,0 +1,21 @@
+{
+    "require": {
+        "jcmijas/tutorial": "dev-soft-deleteable-products-disabled"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "jcmijas/tutorial",
+                "version": ">=1.0",
+                "autoload": { "psr-0": { "jcmijas\\tutorial": "" } },
+                "target-dir": "jcmijas/tutorial",
+                "source": {
+                    "url": "https://github.com/jcmijas/tutorial.git",
+                    "type": "git",
+                    "reference": "soft-deleteable-products-disabled"
+                }
+            }
+        }
+    ]
+}
