@@ -21,12 +21,13 @@
         "bin-dir": "bin"
     },
  "autoload": {
-        "psr-0":
+        "psr-0":{
   
     ,
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         }
+    }
     }
 }
