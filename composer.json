@@ -21,13 +21,12 @@
         "bin-dir": "bin"
     },
  "autoload": {
-        "psr-0":{
-  
-    
+        "psr-0": { "Sylius\\Bundle\\AssortmentBundle": "" }
+    },
+    "target-dir": "Sylius/Bundle/AssortmentBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         }
     }
-    }
-
+}
