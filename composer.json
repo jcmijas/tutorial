@@ -21,12 +21,8 @@
         "bin-dir": "bin"
     },
  "autoload": {
-        "psr-0": { "Sylius\\Bundle\\AssortmentBundle": "" }
-    },
-    "target-dir": "Sylius/Bundle/AssortmentBundle",
-    "extra": {
-        "branch-alias": {
-            "3.x-1.x-dev": "3.x-dev"
+        "psr-0": { "jcmijas\\tutorial": "src/" }
         }
     }
+"minimum-stability": "stable"
 }
