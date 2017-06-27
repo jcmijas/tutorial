@@ -20,9 +20,13 @@
     "config": {
         "bin-dir": "bin"
     },
-   "autoload": {
-        "psr-0": {
-            "Monolog": "src"
+ "autoload": {
+        "psr-0":
+  
+    "target-dir":,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
         }
     }
 }
